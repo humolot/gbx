@@ -1,6 +1,6 @@
 var WebSocketServer = require("websocket").server;
 var http = require("http");
-var port = 1111;
+var port = 80;
 
 var httpServer = http.createServer();
 httpServer.listen(port);
